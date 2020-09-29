@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+#define pb push_back
+
+using namespace std;
+
+void solve()
+{
+    int x, n, m;
+    // n = h/2 + 10
+    // m = h - 10
+    cin >> x >> n >> m;
+
+    x -= (m * 10);
+    cout << "first" <<  x << endl;
+
+    for (int i = 0; i < n; i++) {
+        cout << i << << ' ' << "- x = " << endl;
+        x /= 2;
+        x += 10;
+    }
+
+    if (x > 0) {
+        cout << "NO" << endl;
+    } else {
+        cout << "YES" << endl;
+    }
+
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+
+    for (int i = 0; i < t; ++i)
+    {
+        solve();
+    }
+
+    return 0;
+}
+
