@@ -17,7 +17,7 @@ int element(vector<int> a, vector<int> b) {
     return -1;
 
 }
-void solve()
+void slow_solve()
 {
     int n, m;
     cin >> n >> m;
@@ -42,6 +42,33 @@ void solve()
     }
 }
 
+void fast_solve() {
+    int n, m;
+    cin >> n >> m;
+
+    std::vector<bool> v(1010);
+    while(n--) {
+        int x = 0;
+        cin >> x;
+        v[x] = true;
+    }
+    int a = -1;
+    while(m--) {
+        int x = 0;
+        cin >> x;
+
+        if (v[x]) {
+            a = x;
+        }
+    }
+
+    if (a == -1) {
+        cout << "NO" << endl;
+    } else {
+        cout << "YES" << endl << 1 << ' ' << a << endl;
+    }
+}
+
 int main()
 {
     std::ios_base::sync_with_stdio(false);
@@ -50,7 +77,7 @@ int main()
 
     for (int i = 0; i < t; ++i)
     {
-        solve();
+        fast_solve();
     }
 
     return 0;
