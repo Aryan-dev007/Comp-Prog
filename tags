@@ -1,0 +1,329 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+EPS	test.cpp	/^#define EPS /;"	d	file:
+INF	337a.cpp	/^#define INF /;"	d	file:
+INF	test.cpp	/^#define INF /;"	d	file:
+MOD	test.cpp	/^#define MOD /;"	d	file:
+PI	test.cpp	/^#define PI /;"	d	file:
+SUCCESS	vector.c	/^#define SUCCESS /;"	d	file:
+UNDEFINE	vector.c	/^#define UNDEFINE /;"	d	file:
+VECTOR_INIT	vector.c	/^#define VECTOR_INIT(/;"	d	file:
+VECTOR_INIT_CAPACITY	vector.c	/^#define VECTOR_INIT_CAPACITY /;"	d	file:
+__f	test.cpp	/^void __f(const char *name, Arg1 &&arg1) {$/;"	f
+__f	test.cpp	/^void __f(const char *names, Arg1 &&arg1, Args &&... args) {$/;"	f
+__p	test.cpp	/^void __p(T a) { cout << a << " "; }$/;"	f
+__p	test.cpp	/^void __p(T a1, Arg ...a) { __p(a1); __p(a...); }$/;"	f
+__p	test.cpp	/^void __p(pair<T, F> a) { cout << "{ "; __p(a.first); __p(a.second); cout << "}"; }$/;"	f
+__p	test.cpp	/^void __p(std::vector<T> a) { cout << "{ "; for (auto p : a) __p(p); cout << "}"; }$/;"	f
+__p	test.cpp	/^void __p(std::vector<pair<T, F>> a) { cout << "{ "; for (auto p : a) __p(p); cout << "}"; }$/;"	f
+all	test.cpp	/^#define all(/;"	d	file:
+begtime	test.cpp	/^int begtime = clock();$/;"	v
+capacity	vector.c	/^    int capacity;$/;"	m	struct:sVectorList	file:
+custom_hash	test.cpp	/^struct custom_hash {$/;"	s	file:
+debug	test.cpp	/^#define debug(/;"	d	file:
+element	1382a.cpp	/^int element(vector<int> a, vector<int> b) {$/;"	f
+end_routine	test.cpp	/^#define end_routine(/;"	d	file:
+endl	1408a.file/1408a.cpp	/^#define endl /;"	d	file:
+endl	1408a.file/mygen.cpp	/^#define endl /;"	d	file:
+endl	1422a.cpp	/^#define endl /;"	d	file:
+endl	1a.cpp	/^#define endl /;"	d	file:
+endl	BAsh/t.cpp	/^#define endl /;"	d	file:
+endl	globalround11/a.cpp	/^#define endl /;"	d	file:
+endl	globalround11/b.cpp	/^#define endl /;"	d	file:
+endl	test.cpp	/^#define endl /;"	d	file:
+exist	test.cpp	/^template<typename T,typename U>inline bool exist(T &cont,U &val){return cont.find(val)!=cont.end();}$/;"	f
+f	test.cpp	/^#defi/;"	d	file:
+fast_solve	1325.cpp	/^void fast_solve() {$/;"	f
+fast_solve	1337b.cpp	/^void fast_solve()$/;"	f
+fast_solve	1360b.cpp	/^void fast_solve() {$/;"	f
+fast_solve	1382a.cpp	/^void fast_solve() {$/;"	f
+fil	test.cpp	/^#define fil(/;"	d	file:
+fr	test.cpp	/^#define fr(/;"	d	file:
+frr	test.cpp	/^#define frr(/;"	d	file:
+gcd	389a.cpp	/^int gcd(int a, int b) {$/;"	f
+is_all_upper	131a.cpp	/^bool is_all_upper(const std::string &s) {$/;"	f
+is_all_upper1	131a.cpp	/^bool is_all_upper1(const std::string &s) {$/;"	f
+it	test.cpp	/^#define it /;"	d	file:
+items	vector.c	/^    void **items;$/;"	m	struct:sVectorList	file:
+k	69a.cpp	/^int n,x,y,z,m,k,l;$/;"	v
+l	69a.cpp	/^int n,x,y,z,m,k,l;$/;"	v
+ld	test.cpp	/^typedef long double ld;$/;"	t	file:
+ll	test.cpp	/^typedef long long ll;$/;"	t	file:
+lli	118a.cpp	/^#define lli /;"	d	file:
+lli	1283b.cpp	/^#define lli /;"	d	file:
+lli	1294a.cpp	/^#define lli /;"	d	file:
+lli	1354a.cpp	/^#define lli /;"	d	file:
+lli	1362a.cpp	/^#define lli /;"	d	file:
+lli	1372a.cpp	/^#define lli /;"	d	file:
+lli	1373b.cpp	/^#define lli /;"	d	file:
+lli	1374a.cpp	/^#define lli /;"	d	file:
+lli	1374b.cpp	/^#define lli /;"	d	file:
+lli	1374c.cpp	/^#define lli /;"	d	file:
+lli	1380a.cpp	/^#define lli /;"	d	file:
+lli	1382a.cpp	/^#define lli /;"	d	file:
+lli	1395a.cpp	/^#define lli /;"	d	file:
+lli	1400a.cpp	/^#define lli /;"	d	file:
+lli	1405a.cpp	/^#define lli /;"	d	file:
+lli	1408a.file/1408a.cpp	/^#define lli /;"	d	file:
+lli	1408a.file/mygen.cpp	/^#define lli /;"	d	file:
+lli	1420a.cpp	/^#define lli /;"	d	file:
+lli	1422a.cpp	/^#define lli /;"	d	file:
+lli	1426a.cpp	/^#define lli /;"	d	file:
+lli	1450b.cpp	/^#define lli /;"	d	file:
+lli	1a.cpp	/^#define lli /;"	d	file:
+lli	50a.cpp	/^#define lli /;"	d	file:
+lli	546a.cpp	/^#define lli /;"	d	file:
+lli	617a.cpp	/^#define lli /;"	d	file:
+lli	677round/a.cpp	/^#define lli /;"	d	file:
+lli	677round/b.cpp	/^#define lli /;"	d	file:
+lli	677round/c.cpp	/^#define lli /;"	d	file:
+lli	69a.cpp	/^#define lli /;"	d	file:
+lli	791.cpp	/^#define lli /;"	d	file:
+lli	96a.cpp	/^#define lli /;"	d	file:
+lli	BAsh/t.cpp	/^#define lli /;"	d	file:
+lli	globalround11/a.cpp	/^#define lli /;"	d	file:
+lli	globalround11/b.cpp	/^#define lli /;"	d	file:
+m	69a.cpp	/^int n,x,y,z,m,k,l;$/;"	v
+main	1030a.cpp	/^int main(void)$/;"	f
+main	110a.cpp	/^int main(void)$/;"	f
+main	116a.cpp	/^int main() {$/;"	f
+main	118a.cpp	/^int main()$/;"	f
+main	122a.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	1283b.cpp	/^int main()$/;"	f
+main	1291a.cpp	/^int main()$/;"	f
+main	1294a.cpp	/^int main()$/;"	f
+main	1304a.cpp	/^int main()$/;"	f
+main	1305a.cpp	/^int main()$/;"	f
+main	1307a.cpp	/^int main()$/;"	f
+main	1311a.cpp	/^int main()$/;"	f
+main	1312a.cpp	/^int main()$/;"	f
+main	1312b.cpp	/^int main()$/;"	f
+main	1313a.cpp	/^int main()$/;"	f
+main	131a.cpp	/^int main(void)$/;"	f
+main	1322a.cpp	/^int main()$/;"	f
+main	1325.cpp	/^int main()$/;"	f
+main	1325a.cpp	/^int main()$/;"	f
+main	1328a.cpp	/^int main()$/;"	f
+main	1335A.cpp	/^int main()$/;"	f
+main	1337.cpp	/^int main()$/;"	f
+main	1337b.cpp	/^int main()$/;"	f
+main	133a.cpp	/^int main(void)$/;"	f
+main	1342a.cpp	/^int main()$/;"	f
+main	1353b.cpp	/^int main()$/;"	f
+main	1354a.cpp	/^int main()$/;"	f
+main	1359a.cpp	/^int main()$/;"	f
+main	1360b.cpp	/^int main()$/;"	f
+main	1362a.cpp	/^int main()$/;"	f
+main	1367a.cpp	/^int main()$/;"	f
+main	136a.cpp	/^int main(void)$/;"	f
+main	1372a.cpp	/^int main()$/;"	f
+main	1373a.cpp	/^int main()$/;"	f
+main	1373b.cpp	/^int main()$/;"	f
+main	1374a.cpp	/^int main()$/;"	f
+main	1374b.cpp	/^int main()$/;"	f
+main	1374c.cpp	/^int main()$/;"	f
+main	1380a.cpp	/^int main()$/;"	f
+main	1382a.cpp	/^int main()$/;"	f
+main	1384a.cpp	/^int main()$/;"	f
+main	1395a.cpp	/^int main()$/;"	f
+main	1400a.cpp	/^int main()$/;"	f
+main	1405a.cpp	/^int main()$/;"	f
+main	1406a.cpp	/^int main()$/;"	f
+main	1408a.file/1408a.cpp	/^int main()$/;"	f
+main	1408a.file/mygen.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	1409.cpp	/^int main()$/;"	f
+main	1409A.cpp	/^int main()$/;"	f
+main	1419a.cpp	/^int main()$/;"	f
+main	1420a.cpp	/^int main()$/;"	f
+main	1422a.cpp	/^int main()$/;"	f
+main	1426a.cpp	/^int main()$/;"	f
+main	1450b.cpp	/^int main()$/;"	f
+main	158b.cpp	/^int main(void)$/;"	f
+main	160a.cpp	/^int main()$/;"	f
+main	1a.cpp	/^int main()$/;"	f
+main	236a.cpp	/^int main()$/;"	f
+main	266b.cpp	/^int main(void)$/;"	f
+main	271a.cpp	/^int main(void)$/;"	f
+main	318a.cpp	/^int main(void)$/;"	f
+main	337a.cpp	/^int main(void)$/;"	f
+main	344a.cpp	/^int main(void)$/;"	f
+main	371a.cpp	/^int main() {$/;"	f
+main	389a.cpp	/^int main() {$/;"	f
+main	405a.cpp	/^int main(void)$/;"	f
+main	41a.cpp	/^int main(void)$/;"	f
+main	467a.cpp	/^int main(void)$/;"	f
+main	479a.cpp	/^int main(void)$/;"	f
+main	486a.cpp	/^int main(void)$/;"	f
+main	50a.cpp	/^int main()$/;"	f
+main	546a.cpp	/^int main() {$/;"	f
+main	580a.cpp	/^int main(void)$/;"	f
+main	58a.cpp	/^int main() {$/;"	f
+main	59a.cpp	/^int main(void)$/;"	f
+main	617a.cpp	/^int main()$/;"	f
+main	61a.cpp	/^int main(void)$/;"	f
+main	677a.cpp	/^int main(void)$/;"	f
+main	677round/a.cpp	/^int main()$/;"	f
+main	677round/b.cpp	/^int main()$/;"	f
+main	677round/c.cpp	/^int main()$/;"	f
+main	69a.cpp	/^int main(){$/;"	f
+main	705a.cpp	/^int main(void)$/;"	f
+main	734a.cpp	/^int main(void)$/;"	f
+main	791.cpp	/^int main() {$/;"	f
+main	90a.cpp	/^int main()$/;"	f
+main	96a.cpp	/^int main()$/;"	f
+main	977a.cpp	/^int main()$/;"	f
+main	BAsh/t.cpp	/^int main()$/;"	f
+main	captain_flint_1388A/src/test.c	/^int main() {$/;"	f
+main	globalround11/a.cpp	/^int main()$/;"	f
+main	globalround11/b.cpp	/^int main()$/;"	f
+main	stress_testing/gen.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+main	stress_testing/real.cpp	/^int main() {$/;"	f
+main	stress_testing/t.cpp	/^int main() {$/;"	f
+main	test.cpp	/^int main( int argc , char ** argv )$/;"	f
+main	vector.c	/^int main(int argc, char *argv[])$/;"	f
+mapii	test.cpp	/^typedef map<int, int> mapii;$/;"	t	file:
+mappiii	test.cpp	/^typedef map<pair<int, int>, int> mappiii;$/;"	t	file:
+mapsi	test.cpp	/^typedef map<string, int> mapsi;$/;"	t	file:
+mp	test.cpp	/^#define mp /;"	d	file:
+n	69a.cpp	/^int n,x,y,z,m,k,l;$/;"	v
+naive_solve	1325.cpp	/^void naive_solve()$/;"	f
+naive_solve	1360b.cpp	/^void naive_solve()$/;"	f
+operator ()	test.cpp	/^    size_t operator()(uint64_t x) const {$/;"	f	struct:custom_hash
+operator >>	337a.cpp	/^template<class A> istream& operator>>(istream& in, vector<A> &a){$/;"	f
+pb	118a.cpp	/^#define pb /;"	d	file:
+pb	1283b.cpp	/^#define pb /;"	d	file:
+pb	1291a.cpp	/^#define pb /;"	d	file:
+pb	1294a.cpp	/^#define pb /;"	d	file:
+pb	1312b.cpp	/^#define pb /;"	d	file:
+pb	1313a.cpp	/^#define pb /;"	d	file:
+pb	1337b.cpp	/^#define pb /;"	d	file:
+pb	1342a.cpp	/^#define pb /;"	d	file:
+pb	1354a.cpp	/^#define pb /;"	d	file:
+pb	1359a.cpp	/^#define pb /;"	d	file:
+pb	1362a.cpp	/^#define pb /;"	d	file:
+pb	1372a.cpp	/^#define pb /;"	d	file:
+pb	1373a.cpp	/^#define pb /;"	d	file:
+pb	1373b.cpp	/^#define pb /;"	d	file:
+pb	1374a.cpp	/^#define pb /;"	d	file:
+pb	1374b.cpp	/^#define pb /;"	d	file:
+pb	1374c.cpp	/^#define pb /;"	d	file:
+pb	1380a.cpp	/^#define pb /;"	d	file:
+pb	1382a.cpp	/^#define pb /;"	d	file:
+pb	1395a.cpp	/^#define pb /;"	d	file:
+pb	1400a.cpp	/^#define pb /;"	d	file:
+pb	1405a.cpp	/^#define pb /;"	d	file:
+pb	1408a.file/1408a.cpp	/^#define pb /;"	d	file:
+pb	1408a.file/mygen.cpp	/^#define pb /;"	d	file:
+pb	1420a.cpp	/^#define pb /;"	d	file:
+pb	1422a.cpp	/^#define pb /;"	d	file:
+pb	1426a.cpp	/^#define pb /;"	d	file:
+pb	1450b.cpp	/^#define pb /;"	d	file:
+pb	1a.cpp	/^#define pb /;"	d	file:
+pb	50a.cpp	/^#define pb /;"	d	file:
+pb	677round/a.cpp	/^#define pb /;"	d	file:
+pb	677round/b.cpp	/^#define pb /;"	d	file:
+pb	677round/c.cpp	/^#define pb /;"	d	file:
+pb	69a.cpp	/^#define pb /;"	d	file:
+pb	96a.cpp	/^#define pb /;"	d	file:
+pb	BAsh/t.cpp	/^#define pb /;"	d	file:
+pb	globalround11/a.cpp	/^#define pb /;"	d	file:
+pb	globalround11/b.cpp	/^#define pb /;"	d	file:
+pb	test.cpp	/^#define pb /;"	d	file:
+pfVectorAdd	vector.c	/^    int (*pfVectorAdd)(vector *, void *);$/;"	m	struct:sVector	file:
+pfVectorDelete	vector.c	/^    int (*pfVectorDelete)(vector *, int);$/;"	m	struct:sVector	file:
+pfVectorFree	vector.c	/^    int (*pfVectorFree)(vector *);$/;"	m	struct:sVector	file:
+pfVectorGet	vector.c	/^    void *(*pfVectorGet)(vector *, int);$/;"	m	struct:sVector	file:
+pfVectorResize	vector.c	/^    int (*pfVectorResize)(vector *, int);$/;"	m	struct:sVector	file:
+pfVectorSet	vector.c	/^    int (*pfVectorSet)(vector *, int, void *);$/;"	m	struct:sVector	file:
+pfVectorTotal	vector.c	/^    int (*pfVectorTotal)(vector *);$/;"	m	struct:sVector	file:
+pii	test.cpp	/^typedef pair<int, int> pii;$/;"	t	file:
+pll	test.cpp	/^typedef pair<long long, long long> pll;$/;"	t	file:
+poww	test.cpp	/^ll poww(ll a, ll b, ll mod)$/;"	f
+rand	1408a.file/mygen.cpp	/^int rand(int a, int b) {$/;"	f
+rand	stress_testing/gen.cpp	/^int rand(int a, int b) {$/;"	f
+rep	test.cpp	/^#define rep(/;"	d	file:
+repr	test.cpp	/^#define repr(/;"	d	file:
+s	test.cpp	/^#define s /;"	d	file:
+sVector	vector.c	/^struct sVector$/;"	s	file:
+sVectorList	vector.c	/^typedef struct sVectorList$/;"	s	file:
+sVectorList	vector.c	/^} sVectorList;$/;"	t	typeref:struct:sVectorList	file:
+slow_solve	1382a.cpp	/^void slow_solve()$/;"	f
+solve	1283b.cpp	/^void solve()$/;"	f
+solve	1291a.cpp	/^void solve()$/;"	f
+solve	1294a.cpp	/^void solve()$/;"	f
+solve	1304a.cpp	/^void solve()$/;"	f
+solve	1305a.cpp	/^void solve()$/;"	f
+solve	1307a.cpp	/^void solve()$/;"	f
+solve	1311a.cpp	/^void solve()$/;"	f
+solve	1312a.cpp	/^void solve()$/;"	f
+solve	1312b.cpp	/^void solve()$/;"	f
+solve	1313a.cpp	/^void solve()$/;"	f
+solve	1322a.cpp	/^void solve()$/;"	f
+solve	1325a.cpp	/^void solve()$/;"	f
+solve	1328a.cpp	/^void solve()$/;"	f
+solve	1335A.cpp	/^void solve()$/;"	f
+solve	1337.cpp	/^void solve()$/;"	f
+solve	1337b.cpp	/^void solve()$/;"	f
+solve	1342a.cpp	/^void solve()$/;"	f
+solve	1353b.cpp	/^void solve()$/;"	f
+solve	1354a.cpp	/^void solve()$/;"	f
+solve	1359a.cpp	/^void solve()$/;"	f
+solve	1362a.cpp	/^void solve()$/;"	f
+solve	1367a.cpp	/^void solve()$/;"	f
+solve	1372a.cpp	/^void solve()$/;"	f
+solve	1373a.cpp	/^void solve()$/;"	f
+solve	1373b.cpp	/^void solve()$/;"	f
+solve	1374a.cpp	/^void solve()$/;"	f
+solve	1374b.cpp	/^void solve()$/;"	f
+solve	1374c.cpp	/^void solve()$/;"	f
+solve	1380a.cpp	/^void solve()$/;"	f
+solve	1384a.cpp	/^void solve()$/;"	f
+solve	1395a.cpp	/^void solve()$/;"	f
+solve	1400a.cpp	/^void solve()$/;"	f
+solve	1405a.cpp	/^void solve()$/;"	f
+solve	1406a.cpp	/^void solve()$/;"	f
+solve	1408a.file/1408a.cpp	/^void solve()$/;"	f
+solve	1409.cpp	/^void solve()$/;"	f
+solve	1409A.cpp	/^void solve()$/;"	f
+solve	1419a.cpp	/^void solve()$/;"	f
+solve	1420a.cpp	/^void solve()$/;"	f
+solve	1422a.cpp	/^void solve()$/;"	f
+solve	1426a.cpp	/^void solve()$/;"	f
+solve	1450b.cpp	/^void solve()$/;"	f
+solve	236a.cpp	/^void solve()$/;"	f
+solve	677round/a.cpp	/^void solve() {$/;"	f
+solve	677round/b.cpp	/^void solve() {$/;"	f
+solve	677round/c.cpp	/^void solve() {$/;"	f
+solve	captain_flint_1388A/src/test.c	/^void solve() {$/;"	f
+solve	globalround11/a.cpp	/^void solve()$/;"	f
+solve	globalround11/b.cpp	/^void solve()$/;"	f
+solve	test.cpp	/^void solve(){$/;"	f
+splitmix64	test.cpp	/^    static uint64_t splitmix64(uint64_t x) {$/;"	f	struct:custom_hash
+sz	test.cpp	/^#define sz(/;"	d	file:
+test	1408a.file/1408a.cpp	/^void test(int arr[], int n) {$/;"	f
+total	vector.c	/^    int total;$/;"	m	struct:sVectorList	file:
+trace	test.cpp	/^#define trace(/;"	d	file:
+trav	test.cpp	/^#define trav(/;"	d	file:
+umapib	test.cpp	/^typedef unordered_map<int, bool> umapib;$/;"	t	file:
+umapii	test.cpp	/^typedef unordered_map<int, int> umapii;$/;"	t	file:
+umapsi	test.cpp	/^typedef unordered_map<string, int> umapsi;$/;"	t	file:
+umapss	test.cpp	/^typedef unordered_map<string, string> umapss;$/;"	t	file:
+uset	test.cpp	/^#define uset /;"	d	file:
+useti	test.cpp	/^typedef unordered_set<int> useti;$/;"	t	file:
+vector	vector.c	/^typedef struct sVector vector;$/;"	t	typeref:struct:sVector	file:
+vectorDelete	vector.c	/^int vectorDelete(vector *v, int index)$/;"	f
+vectorFree	vector.c	/^int vectorFree(vector *v)$/;"	f
+vectorGet	vector.c	/^void *vectorGet(vector *v, int index)$/;"	f
+vectorList	vector.c	/^    sVectorList vectorList;$/;"	m	struct:sVector	file:
+vectorPushBack	vector.c	/^int vectorPushBack(vector *v, void *item)$/;"	f
+vectorResize	vector.c	/^int vectorResize(vector *v, int capacity)$/;"	f
+vectorSet	vector.c	/^int vectorSet(vector *v, int index, void *item)$/;"	f
+vectorTotal	vector.c	/^int vectorTotal(vector *v)$/;"	f
+vector_init	vector.c	/^void vector_init(vector *v)$/;"	f
+x	69a.cpp	/^int n,x,y,z,m,k,l;$/;"	v
+y	69a.cpp	/^int n,x,y,z,m,k,l;$/;"	v
+z	69a.cpp	/^int n,x,y,z,m,k,l;$/;"	v

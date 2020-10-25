@@ -1,15 +1,17 @@
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
-int i,k,a[105],n;
-int main(){
-    cin>>n;
 
-    for(i=1;i<=n;i++){
-        cin>>k;
-        a[k]=i;
+int main(void)
+{
+    int n;
+    cin >> n;
+    bool flag = false;
+    while(n--) {
+        int k;
+        cin >> k;
+        if (k == 1) {
+            flag = true;
+        }
     }
-
-    for(i=1;i<=n;i++){
-        cout<<a[i]<<" ";
-    }
+    return 0;
 }
