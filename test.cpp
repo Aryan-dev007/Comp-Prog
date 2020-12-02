@@ -1,17 +1,9 @@
-#include<bits/stdc++.h>
+include<stdio.h>
+
 using namespace std;
 
-int main(void)
-{
-    int n;
-    cin >> n;
-    bool flag = false;
-    while(n--) {
-        int k;
-        cin >> k;
-        if (k == 1) {
-            flag = true;
-        }
-    }
-    return 0;
+void solve() {
+    long long x,y,a,b;
+    cin >> x >> y >> a >> b;
+    cout << ((y-x) % (a+b) == 0 ? (y-x)/(a+b):-1) << '\n';
 }

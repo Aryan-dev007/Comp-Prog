@@ -10,7 +10,6 @@ void solve()
     cin >> n >> k;
 
     cout << ((n - (n % k)) + min(n % k, k / 2))<< endl;
-
 }
 
 int main()

@@ -1,29 +1,34 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define pb push_back
-#define mp make_pair
 #define REP(i, a, b) for (int i=a; i < b; i++)
-typedef long long ll;
-typedef vector<int> vi;
-typedef pair<int, int> pi;
 
 void solve() {
     int n, m;
     cin >> n >> m;
+    char arr[n][m];
+    REP(i, 0, n){
+        REP(j, 0, m) {
+            if (i % 2 == 0)  arr[i][j] = '#';
+            else arr[i][j] = '.';
+        }
+    }
+
     bool flag = true;
+    for (int i = 1; i < n; i += 2) {
+       if (!flag) {
+           arr[i][0] = '#';
+           flag = true;
+       } else {
+           arr[i][m-1] = '#';
+           flag = false;
+       }
+    }
 
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            if (i % 2 != 0 && flag) {
-               cout << '.';
-            } else if (i % 2 != 0 && !flag) {
-               cout << '#';
-               flag = true;
-            } else {
-                cout << '#';
-                flag = false;
-            }
 
+
+    REP(i, 0, n) {
+        REP(j, 0, m) {
+            cout << arr[i][j];
         }
         cout << '\n';
     }
