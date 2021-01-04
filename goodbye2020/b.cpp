@@ -1,27 +1,20 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <bits/stdc++.h> using namespace std;
 #define endl '\n'
 #define pb push_back
 typedef vector<int> vi;
 
 
 void solve() {
-    int n,cnt=0;
+    int n;
     cin >> n;
-    vi v(n);
-    vi a;
-    unordered_set<int> s1;
-    for (auto& i : v) cin >> i, s1.insert(i);
-    for (int i=0; i<n ; i++) {
-        if (v[i] <= v[i+1]) cnt++;
-        else {
-            if (cnt > 1) cnt=1;
-            a.pb(cnt);
-            cnt = 0;
-        }
+    unordered_set<int> S;
+    for (int i=1; i<=n ; ++i) {
+        int v;
+        cin >> v;
+        if (S.count(v)) v++;
+        S.insert(v);
     }
-    a.erase(unique(a.begin(), a.end()), a.end());
-    cout << s1.size() + accumulate(a.begin(), a.end(), 0) << endl;
+    printf("%d\n", (int) S.size());
 }
 
 int main()

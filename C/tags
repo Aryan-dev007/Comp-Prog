@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+current	test.c	/^struct node *current = NULL;$/;"	v	typeref:struct:node
+current	test2.c	/^struct node *current = NULL;$/;"	v	typeref:struct:node
+delete	test2.c	/^struct node* delete(int key) {$/;"	f
+deleteF	test.c	/^struct node *deleteF() {$/;"	f
+deleteFirst	test2.c	/^struct node* deleteFirst() {$/;"	f
+find	test.c	/^struct node* find (int key) {$/;"	f
+find	test2.c	/^struct node* find(int key) {$/;"	f
+head	test.c	/^struct node *head = NULL;$/;"	v	typeref:struct:node
+head	test2.c	/^struct node *head = NULL;$/;"	v	typeref:struct:node
+insertF	test.c	/^void insertF(int key, char* s) {$/;"	f
+insertFirst	test2.c	/^void insertFirst(int key, char *s) {$/;"	f
+isEmpty	test2.c	/^bool isEmpty() {$/;"	f
+key	test.c	/^    int key;$/;"	m	struct:node	file:
+key	test2.c	/^   int key;$/;"	m	struct:node	file:
+length	test2.c	/^int length() {$/;"	f
+main	test.c	/^int main() {$/;"	f
+main	test2.c	/^int main() {$/;"	f
+next	test.c	/^    struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	test2.c	/^   struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:
+node	test.c	/^struct node {$/;"	s	file:
+node	test2.c	/^struct node {$/;"	s	file:
+printList	test2.c	/^void printList() {$/;"	f
+printl	test.c	/^void printl() {$/;"	f
+reverse	test2.c	/^void reverse(struct node** head_ref) {$/;"	f
+s	test.c	/^    char* s;$/;"	m	struct:node	file:
+s	test2.c	/^   char* s;$/;"	m	struct:node	file:
+sort	test2.c	/^void sort() {$/;"	f
