@@ -11,7 +11,7 @@ fn main() {
                                             Err(_)  => 0,
                                         };
     let mut count = 0;
-    for _i in 0..number_of_inputs {
+    for _ in 0..number_of_inputs {
         
         let mut line = String::new();
         std::io::stdin()
